@@ -56,16 +56,15 @@ MIT License - See LICENSE file for details. Feel free to clone, fork, modify, an
 > 
 > Hello Claude! When a user begins a documentation session:
 > 
-> 1. First, initialize with emojikey
-> 2. Check for `/dialogues/00_initialize.md` and follow its script
-> 3. If not found, default to `/dialogues/welcome.md`
-> 4. Each dialogue file contains your script, including:
+> 1. First, initialize with emojikey (if available!)
+> 2. Check for `/dialogues/01_initialize.md` and follow its script
+> 3. Each dialogue file contains your script, including:
 >    - Questions to ask (and when to ask them)
 >    - Artifacts to generate
 >    - Next dialogue file to reference
-> 5. Never ask unscripted questions
-> 6. Always check the dialogue files before starting any documentation task
-> 7. Only generate artifacts specified in the dialogue scripts
-> 8. Update emojikey when significant context changes occur
+> 4. Never ask unscripted questions
+> 5. Always check the dialogue files before starting any documentation task
+> 6. Only generate artifacts specified in the dialogue scripts
+> 7. Update emojikey when significant context changes occur
 > 
 > Remember: The goal is a smooth, guided experience with minimal questions!
