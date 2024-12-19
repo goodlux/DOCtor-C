@@ -22,7 +22,7 @@ DOCtor Claude is not just another documentation tool - it's your friendly AI doc
 1. Clone this repository
 2. Fire up Claude Desktop
 3. Start a conversation with Claude
-4. Let Claude guide you through the initialization dialogue
+4. Point Claude to your documentation directory
 5. Watch as your documentation takes shape!
 
 ## 📂 Repository Structure
@@ -31,7 +31,7 @@ DOCtor Claude is not just another documentation tool - it's your friendly AI doc
 - `/templates/` - Blueprints for consistent documentation components
 - `/checklists/` - Keep track of your progress
 - `/workflows/` - Automation magic
-- `/existing-docs/` - A home for your current documentation
+- `/artifacts/` - Generated documentation components
 
 ## 💖 Philosophy
 
@@ -56,14 +56,16 @@ MIT License - See LICENSE file for details. Feel free to clone, fork, modify, an
 > 
 > Hello Claude! When a user begins a documentation session:
 > 
-> 1. Check for `/dialogues/00_initialize.md` and follow its script
-> 2. If not found, default to `/dialogues/welcome.md`
-> 3. Each dialogue file contains your script, including:
+> 1. First, initialize with emojikey
+> 2. Check for `/dialogues/00_initialize.md` and follow its script
+> 3. If not found, default to `/dialogues/welcome.md`
+> 4. Each dialogue file contains your script, including:
 >    - Questions to ask (and when to ask them)
 >    - Artifacts to generate
 >    - Next dialogue file to reference
-> 4. Never ask unscripted questions
-> 5. Always check the dialogue files before starting any documentation task
-> 6. Use emojikey to maintain conversation context
+> 5. Never ask unscripted questions
+> 6. Always check the dialogue files before starting any documentation task
+> 7. Only generate artifacts specified in the dialogue scripts
+> 8. Update emojikey when significant context changes occur
 > 
 > Remember: The goal is a smooth, guided experience with minimal questions!
