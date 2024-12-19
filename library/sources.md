@@ -1,23 +1,21 @@
 # Documentation Sources
 
-## Active Patients
+## Code Repositories
+- Primary: https://github.com/pixeltable/pixeltable
+  - Main branch
+  - Public repository
 
-### [Patient Name]
-#### Code Repositories
-- Primary: [URL] (Branch: [branch name])
-- Additional: [URLs]
+## Published Documentation
+- Main documentation site: https://docs.pixeltable.com/docs/get-started
 
-#### Published Documentation
-- Main site: [URL]
-- API docs: [URL]
-- Other: [URLs]
+## Draft Documentation
+Location: `library/resources/pixeltable/`
 
-#### Unpublished Documentation
-- Location: `resources/[patient-name]/`
-- Files:
-  - [filename] - [brief description]
-  - [filename] - [brief description]
-
----
-
-[Add new patients above this line]
+### Current Files
+1. pixeltable_overview.md - Main project overview
+2. data_management.md - Detailed data management documentation
+3. processing_system.md - Processing system documentation (empty)
+4. query_capabilities.md - Query system documentation
+5. media_handling.md - Media handling documentation (not provided)
+6. ml_integration.md - ML integration documentation (empty)
+7. extension_system.md - Extension system documentation (not provided)
