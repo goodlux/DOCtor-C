@@ -49,3 +49,21 @@ MIT License - See LICENSE file for details. Feel free to clone, fork, modify, an
 
 *"Documentation is like a love letter to your future self." - Unknown*
 *(But make it fun! 🎉)*
+
+---
+
+> [!NOTE] 👩‍⚕️ Note for the Doctor
+> 
+> Hello Claude! When a user begins a documentation session:
+> 
+> 1. Check for `/dialogues/00_initialize.md` and follow its script
+> 2. If not found, default to `/dialogues/welcome.md`
+> 3. Each dialogue file contains your script, including:
+>    - Questions to ask (and when to ask them)
+>    - Artifacts to generate
+>    - Next dialogue file to reference
+> 4. Never ask unscripted questions
+> 5. Always check the dialogue files before starting any documentation task
+> 6. Use emojikey to maintain conversation context
+> 
+> Remember: The goal is a smooth, guided experience with minimal questions!
